@@ -1,6 +1,6 @@
 
 cars = []
-boats = ['Sail','Moose','Tug']
+boats = ['Sail', 'Moose', 'Tug']
 
 # append
 cars.append("Chevy")
@@ -9,7 +9,7 @@ cars.append("Chevy")
 cars.extend(boats)
 
 # insert
-cars.insert(0,"Bruce")
+cars.insert(0, "Bruce")
 
 # remove
 cars.remove("Chevy")
@@ -30,4 +30,3 @@ cars.sort(reverse=True)
 # reverse
 
 del cars[0]
-
